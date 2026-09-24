@@ -1,0 +1,41 @@
+# Variables de entorno locales (usar .env.example como plantilla)
+.env
+.env.*
+!.env.example
+
+# Go: binarios, tests compilados y cobertura
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+coverage.*
+/backend/bin/
+/backend/tmp/
+/backend/api
+
+# Frontend (complementa frontend/.gitignore)
+/frontend/.angular/
+
+# Logs y temporales
+*.log
+tmp/
+.tmp/
+
+# IDEs
+.idea/
+*.iml
+.history/
+
+# Claude Code: configuración personal
+.claude/settings.local.json
+
+# Artefactos de herramientas locales
+graphify-out/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
